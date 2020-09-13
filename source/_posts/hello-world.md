@@ -36,3 +36,9 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+### 常见问题
+$ hexo d
+ERROR Deployer not found: git
+
+npm install --save hexo-deployer-git
